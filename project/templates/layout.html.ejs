@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            font-family: 'Cordia New', sans-serif;
+            font-size: 20px;
+            line-height: 140%;
+        }
+        .head-title {
+            font-size: 26px;
+            font-weight: 800;
+            text-align: center;
+            margin-top: 0px;
+        }
+        p {
+            text-align: justify;
+        }
+        .ml-40 {
+            margin-left: 40px;
+        }
+        .ml-80 {
+            margin-left: 80px;
+        }
+        .ml-330 {
+            margin-left: 330px;
+        }
+        .sf-40 {
+            text-indent: 40px;
+        }
+        .sf-80 {
+            text-indent: 80px;
+        }
+        .ml-80-sf-m-40 {
+            margin-left: 90px;
+            text-indent: -90px;
+        }
+        .content {
+            display: flex;
+        }
+        .clear-fix {
+            clear: left;
+        }
+        .il-w-40 {
+            display: inline-block;
+            min-width:40px;
+        }
+        .il-w-50 {
+            display: inline-block;
+            min-width:50px;
+        }
+        .row {
+            display: flex;
+        }
+        .col {
+            flex: 1;
+            text-align: center;
+            vertical-align: baseline;
+            padding: 1em;
+        }
+        .end-page {
+            font-style: italic;
+            font-weight: 800;
+            text-align: center;
+        }
+        .new-page{
+            page-break-after: always;
+        }
+    </style>
+</head>
+<body>
+    <%- body %>
+</body>
+</html>
